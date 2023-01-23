@@ -1,0 +1,29 @@
+body {
+    background-color: grey;
+}
+h1 {
+    font-size: small;
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-size:x-large;
+    color: palegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    font-size:x-large;
+    color: palegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2 h3 {
+
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+}
