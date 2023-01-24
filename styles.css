@@ -33,7 +33,18 @@ h3{
     color: DarkSlateGray;
 }
 
+svg {
+    margin-top: 10px;
+}
 
+.btn {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+    
+}
 
 @media screen and (max-width: 500px) {
 
