@@ -38,19 +38,20 @@ svg {
 }
 
 .btn {
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin-top: 25px;
     margin-right: 20px;
-    margin-left: 10px;
-    border: 2px solid black;
+    margin-left: 20px;
+    border: 1px solid black;
     border-radius: 5px;
+    font-size: 14px;;
 }
 
 .btn:hover {
 
     background-color:rgba(47,79,79, 0.6);
-        transition: 0.7s;
+        transition: 0.4s;
     
 }
 @media screen and (max-width: 500px) {
