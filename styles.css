@@ -11,7 +11,7 @@ body {
 padding-top: 30vh;
 max-width:70vw;
 margin-inline: auto;
-line-height: 0.1;
+
 
 color: black;  
 }
@@ -28,6 +28,10 @@ h1 {
 }
 h2,h3 {
     font-size: 6vw;
+    
+}
+h2 {
+    line-height: 0px;
 }
 h3{
     color: DarkSlateGray;
@@ -54,6 +58,21 @@ svg {
         transition: 0.4s;
     
 }
+
+.container2 {
+    border: 1px solid blueviolet;
+}
+/*  */
+@media screen and (min-width: 500px) {
+
+    h2,h3 {
+    
+    font-size: 60px;
+    
+    
+    };
+}
+
 @media screen and (max-width: 500px) {
 
     h2,h3 {
@@ -63,11 +82,21 @@ svg {
     
     };
 }
+/*  */
 @media screen and (max-width: 500px) {
 
     h1 {
     
     font-size: 10px;
+    
+    
+    };
+}
+@media screen and (min-width: 500px) {
+
+    h1 {
+    
+    font-size: 20px;
     
     
     };
@@ -84,11 +113,21 @@ svg {
     };
 }
 
+@media screen and (max-width: 750px) {
+
+    p {
+    
+        font-size: 15px;
+    
+    
+    };
+}
+
 @media screen and (min-width: 750px) {
 
     p {
     
-        font-size: 2vw;
+        font-size: 20px;
     
     
     };
